@@ -10,13 +10,14 @@ Project LISA(https://github.com/ARM-software/lisa) is interesting, but have some
 In LISA2, we are trying to extend LISA in the following ways which is divided into two stages in the plan:
 Stage I
 1. In addition to Ftrace(https://en.wikipedia.org/wiki/Ftrace), combining with eBPF support, especially 
-   integrate project BCC(https://github.com/iovisor/bcc)
+   integrate BCC(https://github.com/iovisor/bcc)
 2. Architecture redesign for better support existing Kernel analysis and test utilities,
    e.g. flexible plug-in mechanism and well-designed interfaces for system extension
-3. Integrate the emerging Linux Kernel test platform KernelCI(https://kernelci.org/)
-4. Better support hardware debug interface like JTAG(https://en.wikipedia.org/wiki/JTAG) 
+3. Integrate the emerging Linux Kernel debugger like Drgn(https://github.com/osandov/drgn)
+4. Integrate the emerging Linux Kernel test platform KernelCI(https://kernelci.org/)
+5. Better support hardware debug interface like JTAG(https://en.wikipedia.org/wiki/JTAG) 
    and SWD(https://www.arm.com/files/pdf/Serial_Wire_Debug.pdf)
-5. Integrate good on-chip debugger like OpenOCD(openocd.org)
+6. Integrate good on-chip debugger like OpenOCD(openocd.org)
 
 Stage II
 1. More CoreSight(https://developer.arm.com/architectures/cpu-architecture/debug-visibility-and-trace/coresight-architecture) 
