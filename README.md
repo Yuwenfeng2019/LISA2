@@ -7,7 +7,9 @@ Project LISA(https://github.com/ARM-software/lisa) is interesting, but have some
 2. Android-oriented, while it is required to adapt to a much more generalized Linux system
 3. Lack of plug-in mechanism to integrated existed Kernel analysis and test projects
 
+
 In LISA2, we are trying to extend LISA in the following ways which is divided into two stages in the plan:
+
 Stage I
 1. In addition to Ftrace(https://en.wikipedia.org/wiki/Ftrace), combining with eBPF support, especially 
    integrate BCC(https://github.com/iovisor/bcc)
